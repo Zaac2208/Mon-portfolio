@@ -1,0 +1,93 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*margin: 0; : Supprime toutes les marges par défaut des éléments.
+padding: 0; : Supprime tous les espacements internes (padding) par défaut des éléments.
+box-sizing: border-box; : Modifie le modèle de boîte par défaut pour inclure le padding
+ et les bordures dans les dimensions de l'élément, facilitant ainsi le contrôle des tailles d'éléments.*/
+
+ /*body : Cible le corps du document.
+font-family: Arial, sans-serif; : Définit la police de caractères à Arial, 
+avec une alternative de secours sans-serif.
+line-height: 1.6; : Définit la hauteur de ligne à 1.6, améliorant la lisibilité du texte.
+background-color: #f8f8f8; : Définit une couleur de fond gris clair pour la page.*/
+
+/*.container : Cible un élément avec la classe "container".
+max-width: 960px; : Limite la largeur maximale de l'élément à 960 pixels.
+margin: 0 auto; : Centre l'élément horizontalement.
+padding: 0 20px; : Ajoute un padding de 20 pixels à gauche et à droite de l'élément.*/
+
+/*header : Cible l'élément <header>.
+background-color: #333; : Définit une couleur de fond gris foncé pour le header.
+color: #fff; : Définit la couleur du texte à blanc.
+padding: 20px 0; : Ajoute un padding de 20 pixels en haut et en bas du header.
+nav ul : Cible les listes non ordonnées (<ul>) à l'intérieur d'un élément <nav>.
+list-style: none; : Supprime les puces de la liste.
+nav ul li : Cible les éléments de liste (<li>) à l'intérieur des listes non ordonnées dans la navigation.
+display: inline; : Affiche les éléments de liste en ligne, les uns à côté des autres.
+margin-right: 20px; : Ajoute une marge de 20 pixels à droite de chaque élément de liste, créant un espacement entre les liens.nav ul li : Cible les éléments de liste (<li>) à l'intérieur des listes non ordonnées dans la navigation.
+display: inline; : Affiche les éléments de liste en ligne, les uns à côté des autres.
+margin-right: 20px; : Ajoute une marge de 20 pixels à droite de chaque élément de liste, créant un espacement entre les liens.
+
+
+section : Cible les éléments <section>.
+padding: 40px 0; : Ajoute un padding de 40 pixels en haut et en bas des sections.
+
+
+section h2 : Cible les éléments <h2> à l'intérieur des sections.
